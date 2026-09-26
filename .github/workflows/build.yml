@@ -29,4 +29,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-artifacts
-          path: build/libs/
+          path: |
+            versions/1.8.9-forge/build/libs
+            versions/1.8.9-ornithe/build/libs
+            versions/26.1-fabric/build/libs
+            versions/26.2-fabric/build/libs
+            versions/26.3-fabric/build/libs
